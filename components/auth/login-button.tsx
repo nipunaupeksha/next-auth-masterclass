@@ -11,6 +11,7 @@ interface LoginButtonProps {
 export const LoginButton = ({
   children,
   mode = "redirect",
+  /* trunk-ignore(eslint/@typescript-eslint/no-unused-vars) */
   asChild = false,
 }: LoginButtonProps) => {
   const router = useRouter();
